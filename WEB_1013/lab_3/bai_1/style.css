@@ -1,0 +1,32 @@
+*{
+    padding: auto;
+    margin: auto;
+}
+body{
+    /* text-align:initial; */
+    /* text-align: center; */
+    padding-left: 650px;
+ } 
+h3{
+    /* text-align: center; */
+    font-size: 30px;
+}
+div{
+    /* text-align: center; */
+}
+.doan_1{
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+}
+.doan_2{
+    color: rgb(68, 0, 255);;
+    font-size: 20px;
+}
+.doan_3{
+    color: rgb(30, 255, 0);
+    font-size: 20px;
+}
+strong{
+    color: rgb(255, 0, 0);
+}

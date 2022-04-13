@@ -1,0 +1,26 @@
+body{
+    background-color: #A06D21;
+    background-size: 40%;
+    background-image: url(anh.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: top 200px;
+}
+img{
+    /* background-position: center; */
+    padding-top:200px;
+    padding-left: 400px;
+    position: absolute;
+    max-width:500px;
+    width:auto;
+    
+}
+h1{
+    position: relative;
+    text-align: center;
+    color: #FFCC00;
+}
+p{
+    position: relative;
+    color: #FFFFFF;
+}

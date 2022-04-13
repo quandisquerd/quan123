@@ -1,0 +1,18 @@
+body{
+    background-image: url(anh.jpg);
+    background-size: 30%;
+    background-attachment: scroll;
+    
+
+}
+
+h1{
+    text-align: center;
+    color: #008888 ;
+}
+div.d1{
+    background-color: #339999;
+}
+.d2{
+    color: #008888;
+}

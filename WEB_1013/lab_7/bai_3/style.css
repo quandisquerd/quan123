@@ -1,0 +1,92 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+}
+.login{
+    color: #000;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    list-style: none;
+    Border-bottom-left-radius: 30px;
+    box-shadow: 0px 0px 5px rgb(255, 255, 255);
+    background-color: rgb(255, 51, 0);
+    padding-left: 20px;
+    font-size: 20px;
+    
+}
+.ten{
+    color: #000;
+    position: absolute;
+    top: 500px;
+    left: 20px;
+}
+p.a{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 60px;
+    text-shadow: 0px 0px 15px rgb(255, 1, 1);
+}
+p.b{
+    color: rgb(247, 18, 18);
+}
+img{
+    max-width: auto;
+    width:100%;
+    height: 650px;
+}
+.login li{
+    float:left;
+    padding: 8px;
+    right: 0px;
+    
+}
+.login li a{
+    color:aliceblue;
+    font-variant: small-caps;
+    text-decoration: none;
+}
+.slide{
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    width:20%;
+    float:right;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    list-style: none;
+    
+}
+
+.menu{
+    /* padding-top: 10px;
+    padding-bottom: 10px; */
+    width:80%;
+    float:left;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    list-style: none;
+}
+.slide li{
+    padding: 15px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.menu li{
+    padding: 15px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.slide li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.menu li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}

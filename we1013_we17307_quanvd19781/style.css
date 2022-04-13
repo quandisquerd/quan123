@@ -1,0 +1,173 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    width: 90%;
+    margin: 0 auto;
+}
+.logo{
+    background:#BCD5F4;
+    text-align: center;
+}
+.logo img{
+    padding: 30px;
+}
+.menu{
+    background: #313131;
+    display: flex;
+}
+.nut{
+    width: 60%;
+    display: flex;
+}
+.nut li{
+    list-style: none;
+    line-height: 50px;
+}
+.nut li a{
+    text-decoration: none;
+    color: #fff;
+    padding : 20px;
+    
+}
+.nut li:hover a{
+    text-decoration: underline;
+}
+
+.tim{
+width: 40%;
+}
+.tim input{
+    width: 75%;
+    height: 25px;
+    margin-top: 10px;
+}
+.tim button{
+    width: 20%;
+    padding: 4px;
+    margin-top: 13px;
+    margin-left: 10px;
+    background: #263054;
+    border: 1px solid #fff;
+   
+}
+.tim button a{
+    text-decoration: none;
+     color: #fff;
+}
+button:hover a{
+    text-decoration: underline;
+}
+
+
+
+.banno{
+    margin-top: 10px;
+    width: 100%;
+}
+.banno img{
+    width: 100%;
+}
+
+
+
+.bai1{
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid rgb(51, 49, 49);
+    display: flex;
+}
+.con1{
+    width: 50%;
+}
+.con1 img{
+    width: 90%;
+    margin: 30px;
+}
+.con2{
+    width: 50%;
+    margin: 30px;
+}
+.con2 li{
+    list-style: none;
+}
+.con2 li a{
+    text-decoration: none;
+    font-size: 35px;
+    color: #851112;
+}
+.con2 li a:hover{
+    text-decoration: underline;
+}
+.con2 p{
+    line-height: 30px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+
+
+.bai2{
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+.chau1{
+    width: 32%;
+    border: 1px solid rgb(51, 49, 49);
+    margin-right: 2%;
+
+}
+.chau1 img{
+    width: 90%;
+    margin: 22px;
+}
+.chau2{
+    width: 32%;
+    border: 1px solid rgb(51, 49, 49);
+    margin-right: 2%;
+}
+.chau2 img{
+    width: 90%;
+    margin: 22px;
+}
+.chau3{
+    width: 32%;
+    border: 1px solid rgb(51, 49, 49);
+}
+.chau3 img{
+    width: 90%;
+    margin: 22px;
+}
+.con3{
+    margin: 22px;
+}
+.con3 li{
+    list-style: none;
+}
+.con3 li a{
+    text-decoration: none;
+    font-size: 35px;
+    color: #851112;
+}
+.con3 p{
+    line-height: 30px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.con3 li a:hover{
+    text-decoration: underline;
+}
+
+
+
+
+footer {
+    margin-top: 15px;
+    line-height: 50px;
+    background: #0A5DA9;
+    text-align: center;
+    color: #fff;
+}

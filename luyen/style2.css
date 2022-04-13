@@ -1,0 +1,49 @@
+.logo{
+    width: 100%;
+    background: #2D215A;
+    text-align: center;
+}
+
+
+.menu1{
+    margin-top: 10px;
+    display: flex;
+}
+.b2{
+    width: 100%;
+    display: flex;
+     /* margin-top: 10px; */
+}
+.b3{
+    width: 50%;
+}
+.b3 li{
+    background:#2D215A;
+    line-height: 50px;
+    margin:0 4px; 
+    padding: 0 40px;
+    list-style: none;
+}
+.b3 li a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.b4{
+    width: 50%;
+    background:#2D215A;
+    display: flex;
+}
+.b5{
+    width: 60%;
+}
+.b5 input{
+    height: 50px;
+    width: 100%;
+}
+.b6 i{
+    font-size: 48px;
+    margin-top: 2px;
+    margin-left: 40px;
+    color: white;
+}

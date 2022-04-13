@@ -1,0 +1,29 @@
+/* *{
+    padding: auto;
+    margin: auto;
+} */
+h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+strong{
+    color: rgb(255, 0, 0);
+    
+}
+.doan_1{
+    color: rgb(60, 196, 7);
+    font-size: 20px;
+}
+.doan_2{
+    color: rgb(60, 196, 7);
+    font-size: 20px;
+}
+.doan_3{
+    color: rgb(60, 196, 7);
+    font-size: 20px;
+}
+.doan_4{
+    color: rgb(230, 49, 49);
+    font-size: 20px;
+}

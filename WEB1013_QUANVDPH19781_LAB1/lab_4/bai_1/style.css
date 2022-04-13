@@ -1,0 +1,35 @@
+*{
+    padding: auto;
+    margin: auto;
+}
+body{
+    text-align: center;
+    
+}
+h3{
+    text-transform: uppercase;
+    font-size:30px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px red;
+}
+em{
+    font-variant: small-caps;
+    /* thay đổi kiểu chữ */
+    font-size: 20px;
+    word-spacing: 2px;
+    /* độ rộng khoảng trắng trong chữ */
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+strong{
+    color: rgb(255, 0, 0);
+}
+.doan_1{
+    color: rgb(226, 43, 43);
+}
+.doan_2{
+    color: rgb(69, 137, 238);
+}
+.doan_3{
+    color: rgb(61, 219, 47);
+}

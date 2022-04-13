@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+table{
+    width:100%;
+}
+td.a{
+    width: 100%;
+}
+td.b{
+        width: 15%;
+}
+tr.d{
+    text-align: center;
+}

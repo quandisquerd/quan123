@@ -1,0 +1,55 @@
+.a{
+    width:99.4%;
+    margin-bottom: 10px;
+}
+fieldset{
+    margin-bottom: 10px;
+}
+.d{
+    width:99.4%;
+    margin-bottom: 10px;
+}
+.e{
+    width:99.4%;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border:1px solid gray;
+    outline: none;
+}
+.e:focus{
+    border-color: red;
+    background-color: yellow;
+    border: 1px solid red;
+}
+.f{
+    width:99.4%;
+    margin-bottom: 10px;
+}
+.them{
+    outline: none;
+    border:none;
+    padding: 3px 25px;
+    border-radius: 15px;
+    box-shadow:inset 0 0px 20px  blue; /*inset để đổ màu vào trong button*/
+    font-weight: bold;
+    color: orangered;
+    background-color: white;
+}
+.them:hover{
+    color: blue;
+    box-shadow: inset 0 0 20px orangered;
+}
+.sua{
+    outline: none;
+    border:none;
+    padding: 3px 25px;
+    border-radius: 15px;
+    box-shadow:inset 0 0px 20px  blue; /*inset để đổ màu vào trong button*/
+    font-weight: bold;
+    color: orangered;
+    background-color: white;
+}
+.sua:hover{
+    color: blue;
+    box-shadow: inset 0 0 20px orangered;
+}

@@ -1,0 +1,143 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+}
+div.header{
+    margin: 0px auto;
+    width:100%;
+    max-width: auto;
+    display: inline-block;
+    background-color: rgb(54, 47, 47);
+}
+nav.login{
+    margin: 0px auto;
+    float: left;
+    position: absolute;
+}
+nav.login li{
+    float: left;
+}
+nav.icon{
+    float:right;
+    padding-right: 20px;
+}
+nav.icon li{
+    float: left;
+    color: rgb(255, 255, 255);
+    list-style: none;
+    padding: 3px 15px;
+}
+nav.icon li a{
+    text-decoration: none;
+}
+
+nav.icon li a i.fa-comments{
+    color: rgb(255, 255, 255);
+}
+nav.icon li a i.fa-comments:hover{
+    color:rgb(212, 0, 255);
+    transition: 1s;
+}
+nav.icon li a i.fa-facebook{
+    color: #fff;
+}
+nav.icon li a i.fa-facebook:hover{
+    color: rgb(47, 0, 255);
+    transition: 1s;
+}
+nav.icon li a i.fa-youtube-play{
+    color: #fff;
+}
+nav.icon li a i.fa-youtube-play:hover{
+    color:rgb(255, 0, 0);
+    transition: 1s;
+}
+nav.login{
+    padding-left: 20px;
+}
+nav.login li{
+   
+    text-transform: none;
+    list-style: none;
+    padding: 3px 15px;
+}
+nav.login li a{
+    color: rgb(255, 255, 255);
+     text-decoration: none;
+     font-size: 12px;
+}
+nav.login li a:hover{
+    color: rgb(185, 88, 88);
+    
+}
+div.menu{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color:rgb(49, 28, 28);
+    margin: 0px auto;
+    width:100%;
+    max-width: auto;
+    display: inline-block;
+}
+img.logo{
+    padding-left: 20px;
+    margin: 0px auto;
+    float: left;
+    position: relative;
+}
+nav.tuvan li{
+    margin-right: 20px;
+    /* padding-right: 20px; */
+    float:right;
+    background-color: rgb(255, 0, 0);
+    list-style: none;
+    padding: 3px 4px;
+    border-radius: 5px;
+}
+nav.tuvan li a i{
+     color: rgb(255, 255, 255);
+}
+nav.tuvan li a i:hover{
+    color: rgb(221, 208, 18);
+}
+nav.phim{
+
+    width: 89%;
+    margin: 0px auto;
+    position: absolute;
+    background-color: rgb(27, 33, 90);
+
+}
+nav.dangnhap{
+    float: right;
+    width:11%;
+    background-color: rgb(27, 33, 90);
+}
+nav.dangnhap li{
+    padding: 3px 14px;
+    list-style: none;
+}
+nav.phim li{
+    float: left;
+    list-style: none;
+    padding: 3px 14px;
+}
+nav.phim li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    /* font-weight: bold; */
+}
+nav.phim li a:hover{
+    color: rgb(199, 46, 153);
+}
+nav.dangnhap li a{
+    color: rgb(204, 159, 159);
+    text-decoration: none;
+}
+nav.dangnhap li a:hover{
+    color: rgb(199, 46, 153);
+}

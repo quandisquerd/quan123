@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    Họ Và Tên<br>
+    <input class="a" type="text">
+    <fieldset>
+    <legend>Giới tính</legend>
+    <label><input class="b" type="radio">Nam</label>
+    <label><input class="c" type="radio">Nữ</label></fieldset>
+    Ngày Sinh<br>
+    <input class="d" type="date">
+    Điểm <br>
+    <label><input class="e" type="number" min="0" max="10" step="0.25"></label>
+    Nghề NGhiệp <br>
+    <input class="f" type="text" list="ide">
+    <datalist id="ide">
+        <option value="Lập Trình Viên"></option>
+        <option value="Đầu Bếp"></option>
+        <option value="Bác Sĩ"></option>
+        <option value="Xây Dựng"></option>
+    </datalist>
+    <fieldset>
+        <legend>Sở Thích</legend>
+
+        <input class="g" type="checkbox">Thẻ Thao
+        <input class="g" type="checkbox">Du Lịch
+        <input class="g" type="checkbox">Ẩm Thực
+        <input class="g" type="checkbox">Âm Nhạc
+    </fieldset>
+    Ghi Chú<br>
+    <textarea class="h" cols="198"rows="5" ></textarea>
+    <hr>
+    <button class="them">Đăng Ký</button>
+    <button class="sua">Nhập Lại</button>
+</body>
+</html>

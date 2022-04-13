@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: tahoma;
+    font-size: 20px;
+
+}
+#menu{
+    width: 700px;
+    height: 50px;
+    background-color: rgb(211, 120, 120);
+    margin: 40px auto;
+}
+.mn >li{
+    float: left;
+    
+    position: relative; /*để cho độ rộng của phần tử cha k bị thay đổi*/
+    list-style: none;
+}
+.mn >li >a{
+    line-height: 50px;
+    padding: 0px 20px 0px 20px;
+    text-decoration: none;
+    display: block;
+}
+.mn >li >a:hover{
+    background-color: rgb(74, 145, 228);
+    color: rgb(224, 1, 1);
+    transition: ease-in 0.3s;
+    -moz-transition: ease-in 0.3s;
+    -webkit-transition: ease-in 0.3s;
+}
+ul.submenu{
+    border-radius: 5px;
+    width:200px;
+    background-color: rgb(29, 250, 0);
+    min-height: 150px;
+    display: none; /*ẩn cả bảng menu con*/
+    position: absolute; /*để cố đinhk chiều rộng cho menu con*/
+}
+ul.submenu li{
+    list-style: none;
+}
+ul.submenu li a{
+    text-decoration: none;
+    display: block;
+    /* border-bottom: 2px solid blue; */
+    border-top: 2px solid rgb(36, 77, 53);
+    line-height: 50px;
+    text-indent: 15px; /* tách lề 15px */
+}
+ul.submenu li:hover{
+    background-color: rgb(121, 58, 58);
+    border-radius: 5px;
+    transition: ease-in 0.3s;
+    -moz-transition: ease-in 0.3s;
+    -webkit-transition: ease-in 0.3s;
+}
+ul.submenu li a:hover{
+    color: rgb(255, 255, 255);
+}
+.mn >li:hover ul.submenu{
+    display: block; /*hiện bảng menu con vừa ẩn*/
+    
+}

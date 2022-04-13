@@ -1,0 +1,32 @@
+*{
+    padding: auto;
+    margin: auto;
+}
+img.quan{
+    background-color: rgb(184, 236, 212);
+}
+p img {
+    /* display: block; */
+    padding-left: 20px;
+    padding-top: 10px;
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    float: left;
+}
+.text img {
+    float: right;
+}
+h3{
+    text-transform: uppercase;
+    /* viết hoa chữ */
+    text-align: center;
+    /* căn mọi thứ ra giữa */
+    padding-top:30px;
+    padding-bottom: 30px;
+    background-color: rgb(0, 255, 21);
+    font-size: 50px;
+    color: rgb(152, 10, 235);
+}
+

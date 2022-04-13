@@ -1,0 +1,30 @@
+*{
+    padding: auto;
+    margin: auto;
+}
+body{
+    text-align: center;
+}
+div.menu{
+   font-variant: small-caps;
+   letter-spacing:2px;
+   line-height: 45px;
+   
+}
+div.menu a{
+    text-decoration: none;
+    font-size: 20px;
+    color:blue;
+    Text-decoration:none;
+}
+.menu a:visited{
+    color: rgb(0, 81, 255);
+    /* màu khi chưa nhấp chuột vào */
+}
+
+
+.menu a:hover{
+Color:rgb(0, 255, 21);
+Text-decoration:none;
+/* màu khi đã nhấp chuột vào */
+}

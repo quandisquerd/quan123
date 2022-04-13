@@ -1,0 +1,34 @@
+body{
+    text-align: center;
+}
+img.anh1{
+    max-width: 20%;
+    width: auto;
+    max-height: 100%;
+    height: auto;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgb(215, 238, 12);
+    box-shadow: 0 0 5px rgb(23, 180, 228);
+}
+img.anh2{
+    
+    max-width: 20% ;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: rgb(213, 233, 33);
+    box-shadow: 0 0 5px rgb(23, 180, 228);
+}
+img.anh1:hover{
+    box-shadow: 0 0 20px red;
+    background-color:rgb(26, 201, 224);
+}
+img.anh2:hover{
+    box-shadow: 0 0 20px red;
+    background-color:rgb(26, 201, 224);
+}

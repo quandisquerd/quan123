@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    color: #276F44;
+
+}
+b{
+    text-decoration: underline;
+}
+strong{
+    color: #FF0000;
+}
+div{
+    background-color: #CCCCCC;
+    height: 80px;
+}
+pre{
+    padding-left:150px;
+    color:#0000CC;
+}

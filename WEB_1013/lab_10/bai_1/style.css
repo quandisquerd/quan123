@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.a{
+    width: 98%;
+}
+.b{
+    width: 98%;
+    border-radius: 3px;
+    border:1px solid gray;
+    outline: none; /*để lúc focus mất cái màu mặc định của border*/
+}
+.b:focus{
+    border-color: red;
+    background-color: yellow;
+    border: 1px solid red;
+}
+hr{
+    width: 985;
+}
+.them{
+    outline: none;
+    border:none;
+    padding: 3px 25px;
+    border-radius: 15px;
+    box-shadow:inset 0 0px 20px  blue; /*inset để đổ màu vào trong button*/
+    font-weight: bold;
+    color: orangered;
+    background-color: white;
+}
+.them:hover{
+    color: blue;
+    box-shadow: inset 0 0 20px orangered;
+}
+.sua{
+    outline: none;
+    border:none;
+    padding: 3px 25px;
+    border-radius: 15px;
+    box-shadow:inset 0 0px 20px  blue; /*inset để đổ màu vào trong button*/
+    font-weight: bold;
+    color: orangered;
+    background-color: white;
+}
+.sua:hover{
+    color: blue;
+    box-shadow: inset 0 0 20px orangered;
+}
+.xoa{
+    outline: none;
+    border:none;
+    padding: 3px 15px;
+    border-radius: 15px;
+    box-shadow:inset 0 0px 20px  blue; /*inset để đổ màu vào trong button*/
+    font-weight: bold;
+    color: orangered;
+    background-color: white; 
+}
+.xoa:disabled{/*định dạng nút xóa*/
+    color:darkgray;
+    box-shadow: inset 0 0px 20px gray;
+}
